@@ -1,0 +1,25 @@
+#eric {
+	width: 70%;
+	background-color: blue;
+	float: right;
+}
+
+#screenshot {
+	width: 30%;
+	background-color: yellow;
+	float: left;
+}
+
+#eric1, #eric2, #eric3 {
+	width: 33%;
+	border: 5px solid white;
+}
+
+#photostrip {
+	text-align: center;
+	padding: 8%;
+}
+
+#signin {
+	width: 80%;
+}
