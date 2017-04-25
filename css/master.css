@@ -1,17 +1,30 @@
-#eric {
-	width: 70%;
-	background-color: blue;
-	float: right;
+#logo {
+	font-family: 'Marck Script', cursive;
+	margin-left: 3%;
 }
 
-#screenshot {
-	width: 30%;
-	background-color: yellow;
-	float: left;
+#eric1 {
+	-ms-transform: rotate(-7deg);
+    -webkit-transform: rotate(-7deg);
+    transform: rotate(-7deg);
+}
+
+#eric2 {
+	-ms-transform: rotate(7deg);
+    -webkit-transform: rotate(7deg);
+    transform: rotate(7deg);
+    margin-left: -8%;
+}
+
+#eric3 {
+	-ms-transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+    margin-left: -3%;
 }
 
 #eric1, #eric2, #eric3 {
-	width: 33%;
+	width: 35%;
 	border: 5px solid white;
 }
 
@@ -20,6 +33,18 @@
 	padding: 8%;
 }
 
-#signin {
-	width: 80%;
+#photostrip p {
+	margin-top: 12%;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+#photostrip a {
+	margin-top: 3%;
+}
+
+#screenshot_hand {
+	min-height: 100%;
+	min-width: 100%;
+	padding: 15% 15% 0 15%;
 }
