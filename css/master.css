@@ -73,14 +73,23 @@ h2 {
 	font-family: 'Marck Script', cursive;
 }
 
-
-#first {
-	background-color: red;
+#features {
+	text-align: center;
+	padding-top: 3%;
 }
 
-#second {
-	background-color: yellow;
+#thumbnails {
+	text-align: center;
+	padding: 3%;
 }
+
+.icon {
+	color: #536f22;
+	padding: 4%;
+}
+
+
+
 
 
 /* Media Queries */
@@ -98,8 +107,9 @@ h2 {
 
 @media screen and (min-width:660px) and (max-width:999px) {
 .screenshot {
-	width: 70%;
+	width: 100%;
 }
+
 }
 
 
