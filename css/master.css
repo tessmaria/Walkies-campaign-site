@@ -84,12 +84,18 @@ h2 {
 }
 
 .icon {
-	color: #536f22;
-	padding: 4%;
+	color: #ffffff;
+	padding: 6%;
 }
 
+.feature {
+	margin-top: 6%;
+	margin-bottom: 6%;
+}
 
-
+.empty {
+	height: 300px;
+}
 
 
 /* Media Queries */
