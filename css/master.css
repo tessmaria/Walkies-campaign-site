@@ -1,3 +1,7 @@
+#nav-mobile {
+	margin-right: 3%;
+}
+
 #logo {
 	font-family: 'Marck Script', cursive;
 	margin-left: 3%;
@@ -73,7 +77,7 @@ h2 {
 	font-family: 'Marck Script', cursive;
 }
 
-#features {
+#features, #contact {
 	text-align: center;
 	padding-top: 3%;
 }
@@ -97,6 +101,40 @@ h2 {
 	height: 300px;
 }
 
+#form {
+	width: 50%;
+}
+
+#social_media {
+	margin: auto;
+	width: 30%;
+}
+
+#links {
+	text-align: center;
+}
+
+.link {
+	width: 20%;
+	height: 20%;
+}
+
+#question {
+	text-align: center;
+	margin: 5% 0 5% 0;
+}
+
+#submit_button {
+	margin: auto;
+}
+
+
+/*form styling */
+.input-field label {
+     color: #33691e;
+}
+
+
 
 /* Media Queries */
 @media screen and (min-width: 1000px) and (max-width:1300px) {
@@ -116,6 +154,10 @@ h2 {
 	width: 100%;
 }
 
+#social_media {
+	width: 50%;
+}
+
 }
 
 
@@ -126,6 +168,10 @@ h2 {
 
 .about-text {
 	width: 100%;
+}
+
+#social_media {
+	width: 80%;
 }
 }
 
