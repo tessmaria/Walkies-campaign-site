@@ -6,7 +6,7 @@
 		<link rel="stylesheet" href="css/master.css" />
 
 		<link href="https://fonts.googleapis.com/css?family=Marck+Script" rel="stylesheet">
-		<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -19,13 +19,13 @@
 				    <a href="#" data-activates="mobile-demo" class="button-collapse light-green-text text-darken-4"><i class="material-icons">menu</i>
 				      <a href="#" class="brand-logo light-green-text text-darken-4" id="logo"> Walkies </a>
 				      <ul id="nav-mobile" class="right hide-on-med-and-down">
-				        <li><a href="#" class="light-green-text text-darken-4">About Us</a></li>
-				        <li><a href="#" class="light-green-text text-darken-4">Features</a></li>
+				        <li><a href="#about-section" class="light-green-text text-darken-4">About Us</a></li>
+				        <li><a href="#feature-section" class="light-green-text text-darken-4">Features</a></li>
 				        <li><a href="#" class="light-green-text text-darken-4">Contact</a></li>
 				      </ul>
 				      <ul class="side-nav" id="mobile-demo">
-				        <li><a href="#" class="light-green-text text-darken-4">About Us</a></li>
-				        <li><a href="#" class="light-green-text text-darken-4">Features</a></li>
+				        <li><a href="#about-section" class="light-green-text text-darken-4">About Us</a></li>
+				        <li><a href="#feature-section" class="light-green-text text-darken-4">Features</a></li>
 				        <li><a href="#" class="light-green-text text-darken-4">Contact</a></li>
 				      </ul>
 			    </div>
@@ -52,7 +52,7 @@
 		</div>
 
 
-			<div class="row">
+			<div id="about-section" class="row">
 				<div class="col s12 m8 l5 light-green-text text-darken-4" id="about">
 					<div id="about-text">
 						<h2> About walkies </h2>
@@ -70,34 +70,90 @@
 			</div>
 		
 
+			<div class="empty row light-green lighten-2">
+			</div>
 
 
-			<div class="row light-green lighten-2">
-				<h2 id="features" class="white-text"> Walkies Features </h2>
+			<div id="feature-section" class="row white">
+				<h2 id="features" class="light-green-text text-darken-4"> Walkies Features </h2>
 					<div id="thumbnails">
-					      <div class="col s3">
-					      	<i class="large material-icons circle white icon">navigation</i>
-					      	<p class="white-text"> Clear Google maps </p>
+					      <div class="col s12 m6 l3">
+					      	<i class="large material-icons circle light-green darken-4 icon">navigation</i>
+					      	<p class="light-green-text text-darken-4 flow-text feature"> Clear Google maps </p>
 					      </div>
-					      <div class="col s3">
-					      	<i class="large material-icons circle white icon">store</i>
-					      	<p class="white-text"> Create your own profile </p>
+					      <div class="col s12 m6 l3">
+					      	<i class="large material-icons circle light-green darken-4 icon">store</i>
+					      	<p class="light-green-text text-darken-4 flow-text feature"> Create your own profile </p>
 					      </div>
-					      <div class="col s3">
-					        <i class="large material-icons circle white icon">thumb_up</i>
-					        <p class="white-text"> Save your favourite places </p>
+					      <div class="col s12 m6 l3">
+					        <i class="large material-icons circle light-green darken-4 icon">thumb_up</i>
+					        <p class="light-green-text text-darken-4 flow-text feature"> Save your favourite places </p>
 					      </div>
-					      <div class="col s3">
-					        <i class="large material-icons circle white icon">my_location</i>
-					        <p class="white-text"> A wide range of locations </p>
+					      <div class="col s12 m6 l3">
+					        <i class="large material-icons circle light-green darken-4 icon">my_location</i>
+					        <p class="light-green-text text-darken-4 flow-text feature"> A wide range of locations </p>
 					      </div>
 					</div>
 
 		    </div>
 
 
+		    <div class="row light-green lighten-2">
+		    	<h2 id="contact" class="white-text"> Contact Us </h2>
+		    		<div id="social_media">
+		    			<div id="links">
+						  	<img src="images/facebook.png" class="link">
+						  	<img src="images/instagram.png" class="link">
+						  	<img src="images/paw-link.png" class="link">
+					    </div>
+					</div>
+
+		    		 <div class="row" id="form">
+		    		 	<P class="white-text flow-text" id="question"> Want to get in touch? Fill out the form below! </p>
+					    <form class="col s12">
+					      <div class="row">
+					        <div class="input-field col s6">
+					          <input id="first_name" type="text" class="validate">
+					          <label for="first_name">First Name</label>
+					        </div>
+					        <div class="input-field col s6">
+					          <input id="last_name" type="text" class="validate">
+					          <label for="last_name">Last Name</label>
+					        </div>
+					      </div>
+					    
+					      <div class="row">
+					        <div class="input-field col s12">
+					          <input id="email" type="email" class="validate">
+					          <label for="email" data-error="wrong" data-success="right">Email</label>
+					        </div>
+					      </div>
+					      <div class="row">
+					        <div class="input-field col s12">
+					          <textarea id="textarea1" class="materialize-textarea"></textarea>
+					          <label for="textarea1">How can we help you?</label>
+					        </div>
+					    </form>
+					  </div>
+
+					  <button id="submit_button" class="btn waves-effect waves-light light-green darken-4" type="submit" name="action">Submit
+						    <i class="material-icons right">send</i>
+						  </button>
+		    </div>
+
+
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script src="js/my_script.js"> </script>
 		<script type="text/javascript" src="js/materialize.min.js"></script>
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-98911329-1', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
 	</body>
 </html>
