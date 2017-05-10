@@ -97,8 +97,18 @@ h2 {
 	margin-bottom: 6%;
 }
 
-.empty {
-	height: 300px;
+#video {
+	margin: 8%;
+	width: 80%;
+}
+
+#instructions {
+	line-height: 140%;
+}
+
+#easy {
+	margin-top: 5%;
+	margin-bottom: 5%;
 }
 
 #form {
