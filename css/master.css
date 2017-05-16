@@ -7,6 +7,13 @@
 	margin-left: 3%;
 }
 
+.sticky {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10000;
+}
+
 #eric1 {
 	-ms-transform: rotate(-7deg);
     -webkit-transform: rotate(-7deg);
